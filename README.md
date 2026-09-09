@@ -1,5 +1,9 @@
 # azpipegen
 
+[![CI](https://github.com/i-ankitkumar/azure-pipeline-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/i-ankitkumar/azure-pipeline-generator/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/i-ankitkumar/azure-pipeline-generator/blob/main/LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+
 Turn a plain-English CI/CD description into a working Azure Pipelines YAML file.
 
 `azpipegen` reads a sentence like *"Build a Python 3.11 app, run pytest, then deploy to an
